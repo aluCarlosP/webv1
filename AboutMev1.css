@@ -1,0 +1,177 @@
+body {
+    background-color: #D0D0CD;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Cabecera*/
+.cabecera {
+    overflow:auto;
+}
+.izq {
+    float:left;
+}
+.der {
+    float:right;
+}
+
+#Ind {
+    text-align: center;
+}
+.Bienv {
+    text-align:center;
+    color: orangered
+}
+
+#Plataformas {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.FondoPlat {
+    background-image: url('../Imagenes/FondoPlat.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#ALARMA {
+    background-color: #FB2424 ;
+    border: 4px solid red;
+    padding: 5px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+/*Links*/
+a {
+    text-decoration: underline;
+    color: #F124A9;
+}
+
+.Fondo {
+    background-image: url('../Imagenes/FondoVistas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+/*Edicion de las imagenes de Trilogias */
+.Seccion {
+    margin-left: 20px;
+    display: flex;
+    width: 500px;
+    height: 330px;
+}
+
+.Seccion img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: ease;
+}
+
+.Seccion img:hover {
+    cursor: crosshair;
+    width: 130px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/* Tablas */
+table {
+    border-collapse:collapse;
+    width: 80%;
+    background-color: #414444;
+    border: 2px solid #093CBC;
+    text-align: center;
+    color: white;
+    margin:auto;
+    margin-bottom: 20px;
+}
+td {
+    background-color: #9e9ea1;
+    color: black;
+}
+
+.Titulo {
+    font-family: Helvetica;
+    text-align: center;
+    color:#EA7C15;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.VISTAS {
+    border-top: 6px double black;
+    border-bottom: 6px double black;
+    background-color: #51514D;
+    padding: 15px;
+    text-align: center;
+    color: #F31010;
+}
+.VIENDO {
+    border-top: 6px double black;
+    border-bottom: 6px double black;
+    background-color: #51514D;
+    padding: 15px;
+    text-align: center;
+    color:#2CF310;
+}
+
+
+/* Imagenes sueltas */
+.Solas {
+    margin-left: 20px;
+    float: left;
+    width:45%;
+}
+
+#Ultima1 {
+    margin: 5px;
+    margin-left: 25px;
+    width: 50%;
+}
+#Ultima2 {
+    margin: 5px;
+    margin-left: 25px;
+    width: 40%;
+}
+#Ultima3 {
+    margin: 5px;
+    margin-left: 25px;
+    width: 40%;
+}
+
+#Encuesta {
+    display:inline-block ;
+    margin-left: 20px;
+}
+
+/* Formulario */
+input[type="text"], input[type="email"], input[type="password"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type="reset"] {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
